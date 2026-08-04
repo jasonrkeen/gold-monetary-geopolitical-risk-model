@@ -1,0 +1,41 @@
+{
+  "project_name": "Gold Monetary, Geopolitical & Supply Risk Intelligence Model",
+  "model_version": "0.1.1",
+  "start_date": "2015-01-01",
+  "risk_free_rate": 0.02,
+  "monte_carlo_runs": 5000,
+  "random_seed": 42,
+  "assets": {
+    "Gold Futures": "GC=F",
+    "GLD": "GLD",
+    "GDX": "GDX",
+    "Newmont": "NEM",
+    "Barrick": "GOLD",
+    "Agnico Eagle": "AEM",
+    "AngloGold Ashanti": "AU",
+    "S&P 500": "SPY"
+  },
+  "fred_series": {
+    "Real Yield": "DFII10",
+    "Broad Dollar": "DTWEXBGS",
+    "VIX": "VIXCLS",
+    "Breakeven Inflation": "T10YIE"
+  },
+  "support_weights": {
+    "Real-yield decline": 0.25,
+    "Dollar weakness": 0.20,
+    "Geopolitical pressure": 0.15,
+    "Market stress": 0.10,
+    "Inflation expectations": 0.10,
+    "Gold momentum": 0.10,
+    "Central-bank demand": 0.10
+  },
+  "risk_weights": {
+    "Gold volatility": 0.25,
+    "Miner volatility": 0.20,
+    "Gold drawdown": 0.15,
+    "Cross-miner dispersion": 0.15,
+    "Factor instability": 0.15,
+    "Positioning and supply": 0.10
+  }
+}

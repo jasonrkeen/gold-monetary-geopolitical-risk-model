@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+tmp/
+outputs/charts/*.png
+outputs/reports/*.pdf
+outputs/tables/*.csv
+outputs/*.json
+data/raw/*.csv
+data/processed/*.csv
+
+# Keep the portfolio-facing sample artifacts in the release.
+!outputs/charts/*.png
+!outputs/reports/gold_risk_intelligence_report.pdf

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using this metadata."
+title: "Gold Monetary, Geopolitical & Supply Risk Intelligence Model"
+type: software
+authors:
+  - family-names: Keen
+    given-names: Jason
+version: 0.1.1
+date-released: 2026-08-04
+license: MIT
+abstract: >-
+  A quantitative decision-support model for monetary transmission,
+  geopolitical pressure, market stress, gold, and mining-equity sensitivity.
